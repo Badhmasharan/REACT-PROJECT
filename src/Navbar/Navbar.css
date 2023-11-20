@@ -1,0 +1,510 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-boxs;
+    size: 20px;
+}
+.header{
+    width: 100%;
+}
+.shipping{
+     max-width: 100%;
+     display: flex;
+     padding: 10px 10px;
+     background: #0d332f;
+}
+.shipping{
+    color:rgb(31, 31, 31);  
+    font-size: 15px;
+    gap:5px;
+}
+.topic{
+    margin-left: 27%;
+    text-shadow: 5px solid white ;
+    color:rgb(255, 255, 255);
+    font-style: oblique;
+    background-color: #0d332f;
+    
+}
+
+.delivery{
+    font-size: 18px;
+    color: #3a5b5b;
+    padding-top: 10px;
+}
+.icon{
+    font-size: 35px;
+    color: rgb(154, 155, 154);
+
+}
+.user button{
+    border-radius: 4px;
+    width: 100px;
+    background: none;
+    height: 50px;
+    margin-left: 800%;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    border-width: 1px;
+    border: none;
+    
+}
+.user button:hover{
+    border:1px solid white; 
+}
+.header2{
+    display: flex;
+    padding: 6px 20px;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #195851;
+}
+.searchbar input{
+    padding: 10px 10px;
+    outline: none;
+    background-color: whitesmoke;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 1000px;
+    height: 27px;
+    border: none;
+    /* border: 1px solid gray; */
+   color: black;
+}
+.searchbar input:hover{
+    text-shadow: 2px solid black;
+}
+.searchbar button{
+    padding: 10px 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 55px;
+    background-color: rgb(222, 205, 189);
+    cursor: pointer;
+    border:none;
+    outline: none;
+    /* border: 1px solid gray; */
+    height: 46.5px;
+    margin-right:30px;
+    transition: 0.5s;
+    font-weight: 600;
+    color:#0d332f;
+   
+   
+}
+.searchbar button:hover{
+    background: rgb(227, 179, 130);
+    color:#0d332f;
+    text-shadow: 1px solid black;
+}
+
+.Location button{
+    border-radius: 4px;
+    width: 160px;
+    height: 50px;
+    background: none;
+    border: #195851;
+    cursor: pointer;
+    font-size: 24px;
+    padding-left: 0%;
+    color: whitesmoke;
+    border-width: 1px;
+}
+.Location button:hover{
+    border:1px solid white;
+}
+.sell button{
+    border-radius: 4px;
+    width: 100px;
+    height: 50px;
+    background: none;
+    border: white;
+    cursor: pointer;
+    font-size: 24px;
+    color: whitesmoke;
+    border-width: 1px;
+    
+}
+.sell button:hover{
+    border:1px solid white;
+}
+
+.orders button{
+    border-radius: 4px;
+    width: 100px;
+    height: 50px;
+    background: none;
+    border: #195851;
+    cursor: pointer;
+    font-size: 24px;
+    color: whitesmoke;
+    border-width: 1px;
+
+}
+.orders button:hover{
+    border:1px solid white;
+}
+.cart button{
+    border-radius: 4px;
+    font-size: 17px;
+    width: 100px;
+    height: 50px;
+    background: none;
+    border: #195851;
+    font-size: 24px;
+    cursor: pointer;
+    color: whitesmoke;
+    border-width: 1px;
+    
+}
+.cart button:hover{
+    border:1px solid white; 
+}
+.header3{
+    display: flex;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    max-width: 100%;
+    justify-content:left;
+    /* background-color: #195851; */
+}
+.all button{
+    height: 37px;
+    width: 60px;
+    color: black;
+    border:none;
+    background: none;
+    font-size: 25px;
+    font-size: 15px;
+    cursor: pointer;
+} 
+.all button:hover{
+    border:1px solid #0d332f;
+}
+
+.offers button{
+    height: 37px;
+    width: 60px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.offers button:hover{
+    border:1px solid #0d332f;
+}
+
+.new button{
+    height: 37px;
+    width: 100px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.new button:hover{
+    border:1px solid #0d332f;
+}
+.bestseller button{
+    height: 37px;
+    width: 90px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.bestseller button:hover{
+    border:1px solid #0d332f;
+}
+.membership button{
+    height: 37px;
+    width: 200px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.membership button:hover{
+    border:1px solid #0d332f;
+}
+.gift button{
+    height: 37px;
+    width: 80px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.gift button:hover{
+    border:1px solid #0d332f;
+}
+.mobile button{
+    height: 37px;
+    width: 60px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.mobile button:hover{
+    border:1px solid #0d332f;
+}
+.electronics button{
+    height: 37px;
+    width: 80px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.electronics button:hover{
+    border:1px solid #0d332f;
+}
+.kitchen button{
+    height: 37px;
+    width: 120px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.kitchen button:hover{
+    border:1px solid #0d332f;
+}
+.fashion button{
+    height: 37px;
+    width: 60px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.fashion button:hover{
+    border:1px solid #0d332f;
+}
+.sports button{
+    height: 37px;
+    width: 120px;
+    color: black;
+    border:none;
+    background: none;
+    cursor: pointer;
+}
+.sports button:hover{
+    border:1px solid #0d332f;
+}
+
+
+
+.advertise{
+    height:700px;
+    width: 98.99%;
+    padding-left: 10px;
+    padding-right: 9px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: cover;
+    background-color: lightgrey;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.advertise:hover{
+    zoom: 102%;
+}
+.body1{
+    background-color: #195851;
+}
+
+.box{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 10px;
+    background-color: #c6c6c6;
+}
+.box1{
+    height:500px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+.box2{
+    height:500px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.box3{
+    height:500px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.box4{
+    height:500px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.boxes{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 30px;
+    background-color:#c6c6c6;
+}
+.box5{
+    height:500px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+.box6{
+    height:500px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.box7{
+    height:500px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+   
+}
+.box8{
+    height:500px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.text{
+    padding-top: 20px;
+    padding-left: 18px;
+}
+.pc{
+    height: 340px;
+    width: 390px;
+    padding: 20px;
+
+
+}
+.shopnow{
+    cursor: pointer;
+    color: #0d332f;
+    transition: 0.5s;
+    padding-left: 10px;
+}
+.shopnow:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+ .body2{
+    display: flex;
+    padding: 16px 20px;
+    max-width: 100%;
+    justify-content: space-between;
+    background-color: #c6c6c6;
+ }
+ /* .body3{
+    padding: 0px ;
+    background-color: #2f2f2f;
+    color: whitesmoke;
+    display: flex; 
+} */
+.smartad{
+   /* width: 1899px; */
+   background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/D103625178_DesktopTallHero_3000x1200._CB574597993_.jpg") ;
+   background-size: cover;
+   background-repeat: no-repeat;
+   ;
+}
+.me{
+    
+    justify-content: center;
+    margin-left: 80%;
+    width: 20rex;
+    height: 8rex;
+    color: whitesmoke;
+    background: none;
+    cursor: pointer;
+    border-radius: 5rex;
+}
+.me:hover{
+     
+    width: 22rex;
+    height: 9rex;
+}
+.check{
+    padding-top: 30px;
+    background-color: #c6c6c6;
+    color:#000000;
+    
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.popular{
+    background-color: white;
+    width: 100%;
+   
+}
+.ps{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 23px;
+    padding-right: 27px;
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+.body4{
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-top: 50px;
+    color: white;
+    padding-bottom: 40px;
+
+}
+.h2{
+    padding-bottom: 15px;
+    color: #dfdddd;
+}
+.p{
+    cursor: pointer;
+    color: rgb(201, 201, 201);
+    padding-bottom: 2px;
+}
+.p:hover{
+    text-decoration: underline;
+}@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Large screens (desktops) */
+  @media only screen and (min-width: 1025px) {
+    body {
+      font-size: 20px;
+    }
+  }
