@@ -2,9 +2,8 @@
     border:solid 2px rgb(0, 68, 128) ;
     width:600px;
     height:400px;
-    /* display:flex; */
-    margin-left:35%;
-    margin-top: 13%;
-    /* justify-content:right;
-    align-items:center; */
+    display:flex; 
+    
+     justify-content:right;
+    align-items:center;
 }

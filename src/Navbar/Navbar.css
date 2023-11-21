@@ -39,16 +39,21 @@
 }
 .user button{
     border-radius: 4px;
-    width: 100px;
+    width: 50px;
     background: none;
     height: 50px;
-    margin-left: 800%;
+    margin-left: 1600%;
     cursor: pointer;
     font-size: 24px;
     color: white;
     border-width: 1px;
     border: none;
     
+}
+.user1{
+    background: none;
+    cursor: pointer;
+    width: 40px;
 }
 .user button:hover{
     border:1px solid white; 
@@ -71,9 +76,10 @@
     border: none;
     /* border: 1px solid gray; */
    color: black;
+   font-size: 17px;
 }
-.searchbar input:hover{
-    text-shadow: 2px solid black;
+.searchbar:hover{
+    box-shadow: 2px solid black;
 }
 .searchbar button{
     padding: 10px 10px;
@@ -168,7 +174,7 @@
     padding-bottom: 4px;
     max-width: 100%;
     justify-content:left;
-    /* background-color: #195851; */
+    background-color: #b8baba;
 }
 .all button{
     height: 37px;
@@ -317,7 +323,7 @@
     background-color: #195851;
 }
 
-.box{
+.boxx{
     padding-left: 20px;
     display: flex;
     justify-content: space-between;
@@ -361,7 +367,7 @@
     height:500px;
     width: 440px;
     background-color: rgb(255, 255, 255);
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 .box6{
     height:500px;
@@ -489,22 +495,4 @@
 }
 .p:hover{
     text-decoration: underline;
-}@media only screen and (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-  }
-  
-  /* Medium screens (tablets) */
-  @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    body {
-      font-size: 18px;
-    }
-  }
-  
-  /* Large screens (desktops) */
-  @media only screen and (min-width: 1025px) {
-    body {
-      font-size: 20px;
-    }
-  }
+}

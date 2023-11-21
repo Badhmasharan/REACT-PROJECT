@@ -6,12 +6,25 @@ import { IoLocationOutline } from "react-icons/io5";
 import { PiShoppingCartThin } from "react-icons/pi";
 import { BsShop } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useNavigate } from "react-router-dom";
+import {useState} from 'react';
+import Signuppg from "../Signuppg/Signup";
+import { IoIosLogOut } from "react-icons/io";
+import { VscAccount } from "react-icons/vsc";
 
-
+import { TextField, Button, Container } from '@mui/material';
 
 export default function Navbar() {
-
+  const [item,setitem]=useState("Signin")
   
+    const navigate = useNavigate();
+  
+    const handleSign = () => {
+      navigate('/h');
+    };
+    const handleSign1 = () => {
+      navigate('/h');
+    };
  
 
   return (
@@ -27,15 +40,18 @@ export default function Navbar() {
               <h1 >WALLe</h1>
             </div>
             <div className='user'>
-            <button>Signin</button>
-          </div>
+            <button onClick={handleSign}><VscAccount /></button>
+            </div>
+            <div className='user'>
+            <button onClick={handleSign1}><IoIosLogOut /></button>
+            </div>
         </div>
         <div className='header2'>
           <div className='Location'>
             <button><IoLocationOutline />  <b>Location</b></button>
           </div>
           <div className='searchbar'>
-            <input type='text' value='' placeholder='Search Items'></input>
+            <input type='text'  placeholder='Search Items'></input>
             <button><FaMagnifyingGlass /></button>
           </div>
           <div className='sell'>
@@ -93,24 +109,24 @@ export default function Navbar() {
         </div>
         <div className='body1'>
           
-          <div className='box'>
+          <div className='boxx'>
             <div className='box1'>
-              <h1 className='text'>Deals in PCs</h1>
+              <h2 className='text'>Deals in PCs</h2>
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg" className='pc'></img>
               <h3 className='shopnow'>Shop now</h3>
             </div>
             <div className='box2'>
-              <h1 className='text'>Toys under $20</h1>
+              <h2 className='text'>Toys under $20</h2>
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg" className='pc'></img>
               <h3 className='shopnow'> Shop now</h3>
             </div>
             <div className='box3'>
-              <h1 className='text'>Furnitures under $80</h1>
+              <h2 className='text'>Furnitures under $80</h2>
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_1X_Furnitrure_v2._SY304_CB577544739_.jpg" className='pc'></img>
               <h3 className='shopnow'> Shop now</h3>
             </div>
             <div className='box4'>
-              <h1 className='text'>Deals on smart watches</h1>
+              <h2 className='text'>Deals on smart watches</h2>
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg" className='pc'></img>
               <h3 className='shopnow'> Shop now</h3>
               </div>
@@ -119,22 +135,22 @@ export default function Navbar() {
        
           <div className='boxes'>
             <div className='box5'>
-              <h1 className='text'>Every thing for your home</h1>
+              <h2 className='text'>Every thing for your home</h2>
               <img src="https://images-fe.ssl-images-amazon.com/images/G/35/gateway/Discover/discoverbed_379x304_2._SY304_CB429791174_.jpg" className='pc'></img>
               <h3 className='shopnow'> Shop now</h3>
               </div>
             <div className='box6'>
-              <h1 className='text'>Diapers | Starting at $19</h1>
+              <h2 className='text'>Diapers | Starting at $19</h2>
               <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Baby/cnnjpp1/PC_CC_379x304V1._SY304_CB616418989_.jpg" className='pc'></img>              
               <h3 className='shopnow'> Shop now</h3>
               </div>
             <div className='box7'>
-              <h1 className='text'>Shop pantry</h1>
+              <h2 className='text'>Shop pantry</h2>
               <img src="https://images-fe.ssl-images-amazon.com/images/G/35/Consumables/2020/Grocery/pantry2_379x304._SY304_CB435011192_.jpg" className='pc'></img>
               <h3 className='shopnow'> Shop now</h3>
               </div>
             <div className='box8'>
-              <h1 className='text'>WALLe Fashion</h1>
+              <h2 className='text'>WALLe Fashion</h2>
               <img src="https://images-na.ssl-images-amazon.com/images/G/15/CA-hq/2023/img/Events/XCM_CUTTLE_1623895_3381342_379x304_1X_en_CA._SY304_CB597323048_.jpg" className='pc'></img>
               <h3 className='shopnow'> Shop now</h3>
               </div>
@@ -215,4 +231,3 @@ export default function Navbar() {
     
   )
 }
-
