@@ -5,10 +5,10 @@
     size: 20px;
 }
 .header{
-    width: 100%;
+    width: 104.9%;
 }
 .shipping{
-     max-width: 100%;
+     max-width: 120%;
      display: flex;
      padding: 10px 10px;
      background: #0d332f;
@@ -78,8 +78,8 @@
    color: black;
    font-size: 17px;
 }
-.searchbar:hover{
-    box-shadow: 2px solid black;
+.searchbar input:hover{
+    text-shadow: 2px solid black;
 }
 .searchbar button{
     padding: 10px 10px;
@@ -174,7 +174,7 @@
     padding-bottom: 4px;
     max-width: 100%;
     justify-content:left;
-    background-color: #b8baba;
+    background-color: #e6e5e5;
 }
 .all button{
     height: 37px;

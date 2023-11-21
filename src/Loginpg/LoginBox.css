@@ -3,12 +3,12 @@ body{
     background-image: url("https://wallpapercave.com/wp/wp2533061.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+    display:flex;
+    justify-content: space-between;
 }
 .wrapper{
    
-    margin-left: 700px;
+    margin-left: 1000px;
     margin-top: 260px;
     width: 420px;
     background: transparent;
@@ -18,6 +18,8 @@ body{
     border-radius: 12px;
     padding: 30px 40px;
     justify-content: center;
+    padding-left: 30px;
+    
 }
 
 .wrapper h1{
@@ -28,6 +30,7 @@ body{
 }
 .wrapper h1:hover{
     text-shadow:3px solid rgba(255, 255, 255, 0.634);
+
 }
 .wrapper h2{
     font-size: 32px;
@@ -132,4 +135,46 @@ body{
     text-decoration: underline;
     cursor: pointer;
     
+}
+.split{
+    margin-left: 1000px;
+    margin-top: 260px;
+    width: 800px;
+    background: transparent;
+    font-size: 90px;
+    color: rgb(143, 143, 143);
+    border-radius: 12px;
+    padding: 30px 40px;
+    position: absolute;
+    padding-left: 30px;
+    top: -50px;
+    left: -900px;
+    text-align: center;
+
+    
+}
+.loginnn{
+   padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 10px;
+    position: relative;
+}
+.slogan{
+    font-size: 30px;
+    margin-left: 380px;
+    color:#157368;
+}
+.slogan:hover{
+    zoom: 108%;
+}
+.brand:hover{
+    zoom: 109%;
+}
+.check:hover{
+    cursor: pointer;
+}
+span{
+    color: #157368;
 }

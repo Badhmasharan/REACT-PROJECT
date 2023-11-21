@@ -34,7 +34,7 @@ export default function Navbar() {
               <LiaShippingFastSolid />
             </div>
             <div className='delivery'>
-              <p>Free del`ivery for purchases above $2000  </p>
+              <p>Free delivery for purchases above $2000  </p>
             </div>
             <div className='topic'>
               <h1 >WALLe</h1>
