@@ -1,10 +1,12 @@
 
-body{
+.loginnn{
     background-image: url("https://wallpapercave.com/wp/wp2533061.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    display:flex;
+    background-size:cover;
+    display:contents;
     justify-content: space-between;
+    height: 945px;
+
 }
 .wrapper{
    
@@ -19,7 +21,12 @@ body{
     padding: 30px 40px;
     justify-content: center;
     padding-left: 30px;
+    height: 400px;
     
+
+}
+.wrapper:hover{
+    transform: scale(1.2);
 }
 
 .wrapper h1{
@@ -142,7 +149,7 @@ body{
     width: 800px;
     background: transparent;
     font-size: 90px;
-    color: rgb(143, 143, 143);
+    color: rgb(255, 255, 255);
     border-radius: 12px;
     padding: 30px 40px;
     position: absolute;
@@ -167,10 +174,11 @@ body{
     color:#157368;
 }
 .slogan:hover{
-    zoom: 108%;
+    transform: scale(1.3);
 }
 .brand:hover{
-    zoom: 109%;
+    /* zoom: 109%; */
+    transform: scale(1.3);
 }
 .check:hover{
     cursor: pointer;

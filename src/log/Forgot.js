@@ -7,10 +7,15 @@ const Forgot = () => {
   const navigate = useNavigate();
 
   const handlepass = () => {
-    navigate('/h');
+    navigate('/login');
   };
  
   return(
+    <div className='loginnn'>
+    <div className='split'>
+      <h1 className='brand'>WALL<span>e</span></h1>
+      <h4 className='slogan'> A few clicks is all it takes.</h4>
+    </div>
   
     <div class="wrapper">
       <form action=""> 
@@ -41,6 +46,7 @@ const Forgot = () => {
         
         
       </form>
+    </div>
     </div>
     );
     };

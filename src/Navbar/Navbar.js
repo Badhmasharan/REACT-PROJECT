@@ -13,18 +13,61 @@ import { IoIosLogOut } from "react-icons/io";
 import { VscAccount } from "react-icons/vsc";
 
 import { TextField, Button, Container } from '@mui/material';
+import Furniture from "./Furniture";
 
-export default function Navbar() {
+export default function Smartwatch() {
   const [item,setitem]=useState("Signin")
   
     const navigate = useNavigate();
   
     const handleSign = () => {
-      navigate('/h');
+      navigate('/login');
     };
     const handleSign1 = () => {
-      navigate('/h');
+      navigate('/login');
     };
+    const handlepc = () => {
+      navigate('/pc');
+    };
+    const shopnow = () => {
+      navigate('/shopnow');
+    };
+ 
+    const electronics = () => {
+      navigate('/electronics');
+    };
+    const topic = () => {
+      navigate('/');
+    };
+ 
+    const smartwatch = () => {
+      navigate('/smartwatch');
+    };
+    const smartphone = () => {
+      navigate('/smartphone');
+    };
+    const toys = () => {
+      navigate('/toys');
+    };
+    const giftitems = () => {
+      navigate('/giftitems');
+    };
+ 
+    const furniture = () => {
+      navigate('/furniture');
+    };
+    const everything = () => {
+      navigate('/everything');
+    };
+    const pantry = () => {
+      navigate('/pantry');
+    };
+    const cart = () => {
+      navigate('/cart');
+    };
+ 
+ 
+ 
  
 
   return (
@@ -37,7 +80,7 @@ export default function Navbar() {
               <p>Free delivery for purchases above $2000  </p>
             </div>
             <div className='topic'>
-              <h1 >WALLe</h1>
+            <button className='topicbutton'onClick={topic}><h1 >WALLe</h1></button>
             </div>
             <div className='user'>
             <button onClick={handleSign}><VscAccount /></button>
@@ -51,7 +94,8 @@ export default function Navbar() {
             <button><IoLocationOutline />  <b>Location</b></button>
           </div>
           <div className='searchbar'>
-            <input type='text'  placeholder='Search Items'></input>
+          < input type="text"  placeholder="Search..."></input>
+
             <button><FaMagnifyingGlass /></button>
           </div>
           <div className='sell'>
@@ -61,7 +105,7 @@ export default function Navbar() {
             <button><b>Orders</b></button>
           </div>
           <div className='cart'>
-            <button><PiShoppingCartThin /> <b>Cart</b></button>
+            <button onClick={cart}><PiShoppingCartThin /> <b>Cart</b></button>
           </div>
   
           
@@ -84,13 +128,13 @@ export default function Navbar() {
             <button>Membership & Subscription</button>
           </div>
           <div className='gift'>
-            <button>Gift Ideas</button>
+            <button onClick={giftitems}>Gift Ideas</button>
           </div>
           <div className='mobile'>
-            <button>Mobiles</button>
+            <button onClick={smartphone}>Mobiles</button>
           </div>
           <div className='electronics'>
-            <button>Electronics</button>
+            <button onClick={electronics}>Electronics</button>
           </div>
           <div className='kitchen'>
             <button>Home & Kitchen</button>
@@ -113,22 +157,22 @@ export default function Navbar() {
             <div className='box1'>
               <h2 className='text'>Deals in PCs</h2>
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg" className='pc'></img>
-              <h3 className='shopnow'>Shop now</h3>
+              <h3 className='shopnow' onClick={shopnow}>Shop now</h3>
             </div>
             <div className='box2'>
               <h2 className='text'>Toys under $20</h2>
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg" className='pc'></img>
-              <h3 className='shopnow'> Shop now</h3>
+              <h3 className='shopnow' onClick={toys}> Shop now</h3>
             </div>
             <div className='box3'>
               <h2 className='text'>Furnitures under $80</h2>
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_1X_Furnitrure_v2._SY304_CB577544739_.jpg" className='pc'></img>
-              <h3 className='shopnow'> Shop now</h3>
+              <h3 className='shopnow' onClick={furniture}> Shop now</h3>
             </div>
             <div className='box4'>
               <h2 className='text'>Deals on smart watches</h2>
               <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg" className='pc'></img>
-              <h3 className='shopnow'> Shop now</h3>
+              <h3 className='shopnow' onClick={smartwatch}> Shop now</h3>
               </div>
           </div>
         
@@ -137,7 +181,7 @@ export default function Navbar() {
             <div className='box5'>
               <h2 className='text'>Every thing for your home</h2>
               <img src="https://images-fe.ssl-images-amazon.com/images/G/35/gateway/Discover/discoverbed_379x304_2._SY304_CB429791174_.jpg" className='pc'></img>
-              <h3 className='shopnow'> Shop now</h3>
+              <h3 className='shopnow' onClick={everything}> Shop now</h3>
               </div>
             <div className='box6'>
               <h2 className='text'>Diapers | Starting at $19</h2>
@@ -147,7 +191,7 @@ export default function Navbar() {
             <div className='box7'>
               <h2 className='text'>Shop pantry</h2>
               <img src="https://images-fe.ssl-images-amazon.com/images/G/35/Consumables/2020/Grocery/pantry2_379x304._SY304_CB435011192_.jpg" className='pc'></img>
-              <h3 className='shopnow'> Shop now</h3>
+              <h3 className='shopnow' onClick={pantry}> Shop now</h3>
               </div>
             <div className='box8'>
               <h2 className='text'>WALLe Fashion</h2>
@@ -171,7 +215,7 @@ export default function Navbar() {
           <br></br>
           <br></br>
           <div className='click'>
-            <button className='me'>Shop Now</button>
+            <button className='me'onClick={smartphone}>Shop Now</button>
           </div>
           <br></br>
           <br></br>

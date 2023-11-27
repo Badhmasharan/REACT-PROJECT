@@ -4,21 +4,21 @@
     box-sizing: border-boxs;
     size: 20px;
 }
-.header{
+.header1{
     width: 100%;
 }
-.shipping{
+.shipping1{
      max-width: 120%;
      display: flex;
      padding: 10px 10px;
      background: #0d332f;
 }
-.shipping{
+.shipping1{
     color:rgb(31, 31, 31);  
     font-size: 15px;
     gap:5px;
 }
-.topic{
+.topic1{
     margin-left: 27%;
     text-shadow: 5px solid white ;
     color:rgb(255, 255, 255);
@@ -26,7 +26,7 @@
     background-color: #0d332f;
     
 }
-.topicbutton{
+.topicbutton1{
     background: none;
     border: none;
     cursor: pointer;
@@ -34,17 +34,17 @@
     padding-top: 10px;
 }
 
-.delivery{
+.delivery1{
     font-size: 18px;
     color: #3a5b5b;
     padding-top: 10px;
 }
-.icon{
+.icon1{
     font-size: 35px;
     color: rgb(154, 155, 154);
 
 }
-.user button{
+.user1 button{
     border-radius: 4px;
     width: 50px;
     background: none;
@@ -62,17 +62,17 @@
     cursor: pointer;
     width: 40px;
 }
-.user button:hover{
+.user1 button:hover{
     border:1px solid white; 
 }
-.header2{
+.header21{
     display: flex;
     padding: 6px 20px;
     max-width: 100%;
     justify-content: space-between;
     background-color: #195851;
 }
-.searchbar input{
+.searchbar1 input{
     padding: 10px 10px;
     outline: none;
     background-color: whitesmoke;
@@ -85,10 +85,10 @@
    color: black;
    font-size: 17px;
 }
-.searchbar input:hover{
+.searchbar1 input:hover{
     text-shadow: 2px solid black;
 }
-.searchbar button{
+.searchbar1 button{
     padding: 10px 10px;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -106,13 +106,13 @@
    
    
 }
-.searchbar button:hover{
+.searchbar1 button:hover{
     background: rgb(227, 179, 130);
     color:#0d332f;
     text-shadow: 1px solid black;
 }
 
-.Location button{
+.Location1 button{
     border-radius: 4px;
     width: 160px;
     height: 50px;
@@ -124,10 +124,10 @@
     color: whitesmoke;
     border-width: 1px;
 }
-.Location button:hover{
+.Location1 button:hover{
     border:1px solid white;
 }
-.sell button{
+.sell1 button{
     border-radius: 4px;
     width: 100px;
     height: 50px;
@@ -139,11 +139,11 @@
     border-width: 1px;
     
 }
-.sell button:hover{
+.sell1 button:hover{
     border:1px solid white;
 }
 
-.orders button{
+.orders1 button{
     border-radius: 4px;
     width: 100px;
     height: 50px;
@@ -155,10 +155,10 @@
     border-width: 1px;
 
 }
-.orders button:hover{
+.orders1 button:hover{
     border:1px solid white;
 }
-.cart button{
+.cart1 button{
     border-radius: 4px;
     font-size: 17px;
     width: 100px;
@@ -171,10 +171,10 @@
     border-width: 1px;
     
 }
-.cart button:hover{
+.cart1 button:hover{
     border:1px solid white; 
 }
-.header3{
+.header31{
     display: flex;
     padding-top: 4px;
     padding-left: 10px;
@@ -182,8 +182,9 @@
     max-width: 100%;
     justify-content:left;
     background-color: #e6e5e5;
+    width: 99.45%;
 }
-.all button{
+.all1 button{
     height: 37px;
     width: 60px;
     color: black;
@@ -193,11 +194,11 @@
     font-size: 15px;
     cursor: pointer;
 } 
-.all button:hover{
+.all1 button:hover{
     border:1px solid #0d332f;
 }
 
-.offers button{
+.offers1 button{
     height: 37px;
     width: 60px;
     color: black;
@@ -205,11 +206,11 @@
     background: none;
     cursor: pointer;
 }
-.offers button:hover{
+.offers1 button:hover{
     border:1px solid #0d332f;
 }
 
-.new button{
+.new1 button{
     height: 37px;
     width: 100px;
     color: black;
@@ -217,10 +218,10 @@
     background: none;
     cursor: pointer;
 }
-.new button:hover{
+.new1 button:hover{
     border:1px solid #0d332f;
 }
-.bestseller button{
+.bestseller1 button{
     height: 37px;
     width: 90px;
     color: black;
@@ -228,10 +229,10 @@
     background: none;
     cursor: pointer;
 }
-.bestseller button:hover{
+.bestseller1 button:hover{
     border:1px solid #0d332f;
 }
-.membership button{
+.membership1 button{
     height: 37px;
     width: 200px;
     color: black;
@@ -239,10 +240,10 @@
     background: none;
     cursor: pointer;
 }
-.membership button:hover{
+.membership1 button:hover{
     border:1px solid #0d332f;
 }
-.gift button{
+.gift1 button{
     height: 37px;
     width: 80px;
     color: black;
@@ -250,10 +251,10 @@
     background: none;
     cursor: pointer;
 }
-.gift button:hover{
+.gift1 button:hover{
     border:1px solid #0d332f;
 }
-.mobile button{
+.mobile1 button{
     height: 37px;
     width: 60px;
     color: black;
@@ -261,10 +262,10 @@
     background: none;
     cursor: pointer;
 }
-.mobile button:hover{
+.mobile1 button:hover{
     border:1px solid #0d332f;
 }
-.electronics button{
+.electronics1 button{
     height: 37px;
     width: 80px;
     color: black;
@@ -272,10 +273,10 @@
     background: none;
     cursor: pointer;
 }
-.electronics button:hover{
+.electronics1 button:hover{
     border:1px solid #0d332f;
 }
-.kitchen button{
+.kitchen1 button{
     height: 37px;
     width: 120px;
     color: black;
@@ -283,10 +284,10 @@
     background: none;
     cursor: pointer;
 }
-.kitchen button:hover{
+.kitchen1 button:hover{
     border:1px solid #0d332f;
 }
-.fashion button{
+.fashion1 button{
     height: 37px;
     width: 60px;
     color: black;
@@ -294,10 +295,10 @@
     background: none;
     cursor: pointer;
 }
-.fashion button:hover{
+.fashion1 button:hover{
     border:1px solid #0d332f;
 }
-.sports button{
+.sports1 button{
     height: 37px;
     width: 120px;
     color: black;
@@ -305,15 +306,15 @@
     background: none;
     cursor: pointer;
 }
-.sports button:hover{
+.sports1 button:hover{
     border:1px solid #0d332f;
 }
 
 
 
-.advertise{
+.advertise1{
     height:700px;
-    width: 98.99%;
+    width: 99%;
     padding-left: 10px;
     padding-right: 9px;
     padding-top: 10px;
@@ -323,14 +324,15 @@
     transition: 0.5s;
     cursor: pointer;
 }
-.advertise:hover{
+/* .advertise1:hover{
     zoom: 102%;
-}
-.body1{
-    background-color: #195851;
+} */
+.body11{
+    background-color:  #c6c6c6;
+    padding-bottom: 20px;
 }
 
-.boxx{
+.boxx1{
     padding-left: 20px;
     display: flex;
     justify-content: space-between;
@@ -338,43 +340,43 @@
     padding-top: 10px;
     background-color: #c6c6c6;
 }
-.box1{
-    height:500px;
-    width: 440px;
-    background-color: rgb(255, 255, 255);
-    /* padding-left: px; */
-}
-.box1:hover{
-    transform: scale(1.02);
-}
-.box2{
+.box11{
     height:500px;
     width: 440px;
     background-color: rgb(255, 255, 255);
     
 }
-.box2:hover{
+.box11:hover{
     transform: scale(1.02);
 }
-.box3{
+.box21{
+    height:500px;
+    width: 440px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.box21:hover{
+    transform: scale(1.02);
+}
+.box31{
     height:500px;
     width: 440px;
     background-color: rgb(255, 255, 255);
    
 }
-.box3:hover{
+.box31:hover{
     transform: scale(1.02);
 }
-.box4{
+.box41{
     height:500px;
     width: 440px;
     background-color: rgb(255, 255, 255);
    
 }
-.box4:hover{
+.box41:hover{
     transform: scale(1.02);
 }
-.boxes{
+.boxes1{
     padding-left: 20px;
     display: flex;
     justify-content: space-between;
@@ -382,86 +384,111 @@
     padding-top: 30px;
     background-color:#c6c6c6;
 }
-.box5{
+.boxes11{
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 30px;
+    background-color:#c6c6c6;
+}
+
+.box51{
     height:500px;
     width: 440px;
     background-color: rgb(255, 255, 255);
     /* padding-left: 10px; */
 }
-.box5:hover:hover{
+.box51:hover:hover{
     transform: scale(1.02);
 }
-.box6{
+.box61{
     height:500px;
     width: 440px;
     background-color: rgb(255, 255, 255);
     
 }
-.box6:hover{
+.box61:hover{
     transform: scale(1.02);
 }
-.box7{
+.box71{
     height:500px;
     width: 440px;
     background-color: rgb(255, 255, 255);
    
 }
-.box7:hover{
+.box71:hover{
     transform: scale(1.02);
 }
-.box8{
+.box81{
     height:500px;
     width: 440px;
     background-color: rgb(255, 255, 255);
    
 }
-.box8:hover{
+.box81:hover{
     transform: scale(1.02);
 }
 
-.text{
+.text1{
     padding-top: 20px;
     padding-left: 18px;
 }
-.pc{
-    height: 340px;
-    width: 390px;
-    padding: 20px;
+.pc1{
+    height: 300px;
+    width: 300px;
+    padding-left: 50px;
+    justify-content: center;
 
 
 }
-.shopnow{
+.pc1:hover{
+    transform: scale(1.5);
+}
+.pc01{
+    height: 250px;
+    width: 300px;
+    padding-left: 50px;
+    justify-content: center;
+    padding-top: 30px;
+
+
+}
+.pc01:hover{
+    transform: scale(1.5);
+}
+.shopnow1{
     cursor: pointer;
     color: #0d332f;
     transition: 0.5s;
     padding-left: 10px;
 }
-.shopnow:hover{
+.shopnow1:hover{
     color: orangered;
     text-decoration: underline;
 }
 
- .body2{
+ .body21{
     display: flex;
     padding: 16px 20px;
     max-width: 100%;
     justify-content: space-between;
     background-color: #c6c6c6;
  }
- /* .body3{
+ /* .body31{
     padding: 0px ;
     background-color: #2f2f2f;
     color: whitesmoke;
     display: flex; 
 } */
-.smartad{
+.smartad1{
    /* width: 1899px; */
    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Wireless/devjyoti/GW/Uber/Nov/D103625178_DesktopTallHero_3000x1200._CB574597993_.jpg") ;
    background-size: cover;
    background-repeat: no-repeat;
    ;
 }
-.me{
+.me1{
     
     justify-content: center;
     margin-left: 80%;
@@ -472,11 +499,11 @@
     cursor: pointer;
     border-radius: 5rex;
 }
-.me:hover{
+.me1:hover{
      
     transform: scale(1.2);
 }
-.check{
+.check1{
     padding-top: 30px;
     background-color: #c6c6c6;
     color:#000000;
@@ -486,16 +513,16 @@
     padding-right: 20px;
 }
 
-.popular{
+.popular1{
     background-color: white;
     width: 100%;
    
 }
-.ps{
+.ps1{
     padding-left: 20px;
     padding-top: 10px;
 }
-.imgs{
+.imgs1{
     display: flex;
     justify-content: space-between;
     padding-left: 23px;
@@ -503,7 +530,7 @@
     padding-bottom: 30px;
     cursor: pointer;
 }
-.body4{
+.body41{
     background-color: rgb(39, 39, 39);
     display: flex;
     justify-content:space-evenly;
@@ -514,15 +541,15 @@
     padding-bottom: 40px;
 
 }
-.h2{
+.h21{
     padding-bottom: 15px;
     color: #dfdddd;
 }
-.p{
+.p1{
     cursor: pointer;
     color: rgb(201, 201, 201);
     padding-bottom: 2px;
 }
-.p:hover{
+.p1:hover{
     text-decoration: underline;
 }

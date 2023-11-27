@@ -8,7 +8,7 @@ export default function Rro()
       <form action=""> 
         <h1>Login</h1>
         <div class="input-box">
-          <input type="text" placeholder="Username" required/>
+          <input type="email" placeholder="Username" required/>
           <i class='bx bxs-user'></i>
         </div>
         <div class="input-box">

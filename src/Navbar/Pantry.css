@@ -1,0 +1,20 @@
+.add-to-cart-button {
+    background-color: #195851;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 305px;
+    margin-top: 5px;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color:#1f7e73;
+  }
+  
